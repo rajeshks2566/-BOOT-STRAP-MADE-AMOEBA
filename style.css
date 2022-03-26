@@ -1,0 +1,310 @@
+html,body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Nav Bar Starts  */
+
+nav
+{
+    position: fixed;
+    background-color: rgb(121, 167, 121);
+    width: 100%;
+}
+
+nav ul
+{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li
+{
+    display: inline-block;
+    padding-top: 20px;
+    margin-right: 40px;
+}
+nav a
+{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+
+nav
+{
+    padding-top: 1px;
+    
+}
+
+.logo
+{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+
+.name
+{
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+
+
+
+/* Nav Bar Ends  */
+
+/* Main Body Starts */
+
+.bgimage
+{
+    
+    padding-top: 2px;
+    height: 450px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(rgba(95, 155, 103, 0.5),rgba(95, 155, 103, 0.5)), url("https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683__340.png");
+}
+
+.bgimage1
+{
+    text-align: center;
+    padding-top: 120px;
+    font-size: 25px;
+    color: white;
+}
+
+.started
+{
+    color: white;
+    text-decoration: none;
+    margin-left: 600px;
+    border-radius: 20px;
+    border: white 1px solid;
+    padding: 8px;
+
+}
+
+.started:hover
+{
+    background-color: white;
+    color: green;
+}
+/* Min body Ends */
+
+
+
+/* About US Starts */
+
+.aboutus
+{
+    margin: 100px;
+}
+
+.aboutus1
+{
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.aboutus-subdiv div
+{
+    
+    display: inline-block;
+    width: 500px;
+    color: grey;
+}
+
+.aboutus-subdiv i
+{
+    color: green;
+}
+
+.aboutus-img 
+{
+    padding-left: 50px;
+    margin-top: 50px;
+    
+}
+
+.aboutus3
+{
+    display: inline-block;
+    width: 500px;
+    
+    
+    
+}
+
+
+/*  About Us Ends */
+
+/*  Services Starts */
+
+.services
+{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.services-subdiv div
+{
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    margin-left: 80px;
+    padding-bottom: 30px;
+}
+
+.services-bgimg
+{
+    background-color: rgb(240, 243, 240);
+}
+
+.services-subdiv i
+{
+    color: green;
+    
+    
+}
+
+.services-subdiv h1:hover
+{
+    color: green;
+}
+
+/* Servicses Ends */
+
+/* Call to Action Starts */
+
+.call
+{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.call p
+{
+    margin-left: 50px;
+    margin-right: 50px;
+   
+}
+
+.call1
+{
+    background-image:linear-gradient(rgba(8, 61, 14, 0.5),rgba(31, 66, 36, 0.5)), url("https://cdn.pixabay.com/photo/2016/04/24/17/27/leaves-1350175__480.jpg");
+    height: 250px;
+    
+}
+
+.call2
+{
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    border: white 1px solid;
+    padding: 8px;
+}
+
+.call2:hover
+{
+    background: transparent;
+    background-color: rgb(49, 97, 49);
+    color: white;
+    font-size: 30px;
+    color: red;
+}
+
+/* Call to Action Ends */
+
+/* Portfolio Starts */
+
+.input
+{
+    display: none;
+}
+
+
+
+.container
+{
+    width: 100%;
+    text-align: center;
+}
+
+.photo-gallery
+{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+
+.photo-gallery img:hover
+{
+  width: 300px;
+  height: 400px;
+}
+
+.pic
+{
+    
+    position: relative;
+    height: 230px;
+}
+
+.pic img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* Freq Asked Que */
+
+.freq
+{
+    background-color: rgb(219, 240, 219);
+    
+}
+.freq h1
+{
+    text-align: center;
+}
+
+.que details
+{
+    padding-top: 10px;
+    margin-left: 120px;
+    margin-right: 60px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.que details:hover
+{
+    color: green;
+}
+
+
+
+
+
+
+
